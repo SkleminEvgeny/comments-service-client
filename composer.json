@@ -1,0 +1,31 @@
+{
+    "name": "sklemin/comments-service-client",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Sklemin\\Client\\": "src/Client/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Sklemin\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "sklemin",
+            "email": "dantepclol@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.4",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "ext-mbstring": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9"
+    }
+}
